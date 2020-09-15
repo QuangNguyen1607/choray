@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bệnh Viện Chợ Rẫy - Lê Quang Nguyên</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="icon" href="image/LOGO_CHORAY.png" type="image/gif" sizes="16x16" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <!-- Remixicons -->
+        <script src="https://kit.fontawesome.com/973e3dddad.js" crossorigin="anonymous"></script>
+        <!-- Icon fontawesome -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <!-- Animation -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+        />
+        <!-- icon material -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="style/swiper-bundle.min.css" />
+        <!-- CSS SLICK -->
+        <link rel="stylesheet" type="text/css" href="style/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="style/slick/slick-theme.css" />
+        <!-- icon linnericons -->
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
+        <!-- CSS datapicker -->
+        <link rel="stylesheet" href="style/bootstrap-datepicker.css" />
+        <!-- My Style -->
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+    <body>
+        <header>
+            <section class="header">
+                <div class="container p-0">
+                    <div class="header__main">
+                        <div class="header__logo">
+                            <a href="index.html">
+                                <img src="image/LOGO_CHORAY.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="header__menu">
+                            <ul class="items">
+                                <li class="item">
+                                    <a href=""><i class="ri-home-3-line icon-border"></i></a>
+                                </li>
+                                <li class="item"><a href="">Giới thiệu</a></li>
+                                <li class="item"><a href="">Chuyên khoa</a></li>
+                                <li class="item"><a href="">Tin tức</a></li>
+                                <li class="item"><a href="">Hoạt động</a></li>
+                                <li class="item"><a href="">Trung tâm</a></li>
+                                <li class="item"><a href="">Khám dịch vụ</a></li>
+                                <li class="item"><a href="">Đội ngũ bác sĩ</a></li>
+                                <li class="item"><a href="">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__right">
+                            <div class="header__hotline">
+                                <a href=""
+                                    ><i class="ri-phone-line header--icon icon-border"></i
+                                ></a>
+                                <div class="header__hotline--text">
+                                    <p class="header__hotline--hotline">Hotline cấp cứu</p>
+                                    <p class="header__hotline--sdt">0977.010.200</p>
+                                </div>
+                            </div>
+                            <div class="header__search">
+                                <a href="#search"
+                                    ><i class="ri-search-2-line header--icon icon-border"></i
+                                ></a>
+                                <div class="search-box">
+                                    <input type="text" placeholder="Bạn cần tìm gì" />
+                                    <input type="button" value="Tìm kiếm" />
+                                </div>
+                            </div>
+                            <div class="header__tranlator">
+                                <span>VN</span>
+                                <span class="material-icons"> expand_more </span>
+                            </div>
+                        </div>
+                        <div class="menu__mobile">
+                            <div class="menu__mobile__left">
+                                <a href="#close" class="menu__mobile__left--button"
+                                    ><i class="ri-close-fill"></i
+                                ></a>
+                                <ul>
+                                    <li>
+                                        <a href=""><i class="ri-home-3-line icon-border"></i></a>
+                                        <a href="">Giới thiệu</a>
+                                        <a href="">Chuyên khoa</a>
+                                        <a href="">Tin tức</a>
+                                        <a href="">Hoạt động</a>
+                                        <a href="">Trung tâm</a>
+                                        <a href="">Đội ngũ bác sĩ</a>
+                                        <a href="">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="button-search-mb no-search">
+                            <i class="fas fa-search" id="search-icon"></i>
+                            <input class="search-input" type="text" placeholder="Tìm kiếm..." />
+                        </div>
+                        <a href="#menu" class="menu__button">
+                            <i class="ri-menu-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- Modal dangkytuvan -->
+        <div
+            class="modal fade"
+            id="dangkytuvan"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="section-title">
+                            <i class="ri-quill-pen-line"></i>Đăng ký tư vấn
+                        </h4>
+                        <p class="section-des">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                        </p>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Họ tên" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Số điện thoại"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                        rows="3"
+                                        placeholder="Nội dung"
+                                    >
+                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="" class="btn btn-post"
+                                        >Chi tiết<span class="material-icons">
+                                            trending_flat
+                                        </span></a
+                                    >
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Modal dangkykhambenh -->
+        <div
+            class="modal fade"
+            id="dangkykhambenh"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="section-title">
+                            <i class="ri-file-add-line"></i>Đăng ký khám bệnh
+                        </h4>
+                        <p class="section-des">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                        </p>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Họ tên" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Số điện thoại"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <select class="custom-select" id="inputGroupSelect01">
+                                            <option value="0" selected>Chọn khoa</option>
+                                            <option value="Khoa phụ sản">Khoa phụ sản</option>
+                                            <option value="Khoa thần kinh">Khoa thần kinh</option>
+                                            <option value="Khoa kinh niên">Khoa kinh niên</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-daterange input-group" id="datepicker">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            value="2012-04-05"
+                                            placeholder="Chọn ngày khám"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <textarea
+                                        class="form-control"
+                                        rows="3"
+                                        placeholder="Nhu cầu khám bệnh"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="" class="btn btn-post"
+                                        >Đăng ký khám<span class="material-icons">
+                                            trending_flat
+                                        </span></a
+                                    >
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Modal dangkydichvu -->
+        <div
+            class="modal fade"
+            id="dangkydichvu"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            X
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="section-title">
+                            <i class="ri-pen-nib-line"></i>Đăng ký dịch vụ
+                        </h4>
+                        <p class="section-des">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                        </p>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Họ tên" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Số điện thoại"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <select class="custom-select" id="inputGroupSelect01">
+                                            <option value="0" selected>Chọn khoa</option>
+                                            <option value="Khoa phụ sản">Khoa phụ sản</option>
+                                            <option value="Khoa thần kinh">Khoa thần kinh</option>
+                                            <option value="Khoa kinh niên">Khoa kinh niên</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <select class="custom-select" id="inputGroupSelect01">
+                                            <option value="0" selected>Chọn bác sĩ</option>
+                                            <option value="Khoa phụ sản">Bác sĩ Nguyên</option>
+                                            <option value="Khoa thần kinh">Bác sĩ Tường</option>
+                                            <option value="Khoa kinh niên">Bác sĩ Lâm</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <select class="custom-select" id="inputGroupSelect01">
+                                            <option value="0" selected>Chọn gói dịch vụ</option>
+                                            <option value="Khoa phụ sản">Gói 1</option>
+                                            <option value="Khoa thần kinh">Gói 2</option>
+                                            <option value="Khoa kinh niên">Gói 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <textarea
+                                        class="form-control"
+                                        rows="3"
+                                        placeholder="Nhu cầu khám bệnh"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="" class="btn btn-post"
+                                        >Đăng ký khám<span class="material-icons">
+                                            trending_flat
+                                        </span></a
+                                    >
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Modal y kien -->
+
+        <div
+            class="modal fade"
+            id="ykien"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="section-title">
+                            <i class="ri-questionnaire-line"></i>Form gửi ý kiến
+                        </h4>
+                        <p class="section-des">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                        </p>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Họ tên" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Số điện thoại"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Tiêu đề" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                        rows="3"
+                                        placeholder="Nội dung góp ý"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="" class="btn btn-post"
+                                        >Gửi<span class="material-icons"> trending_flat </span></a
+                                    >
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Modal  -->
+        <!-- Button -->
+        <div class="button-sticky">
+            <div class="button-1 button-email">
+                <p>Lequangnguyen409@gmail.com</p>
+                <i class="ri-mail-send-line"></i>
+            </div>
+            <div class="button-1 button-phone">
+                <p>0977.010.200</p>
+                <i class="ri-phone-line"></i>
+            </div>
+            <div class="button-1 button-tv">
+                <p>Tư vấn</p>
+                <i class="ri-question-answer-line"></i>
+            </div>
+        </div>
+        <!-- Button -->
+        <main>
+            <section
+                class="banner"
+                style="
+                    background-image: linear-gradient(to right bottom, #0000002b, #0000002b),
+                        url(image/banner.jpg);
+                "
+            >
+                <div class="banner__text">
+                    <div class="banner-animation">
+                        <h1 class="banner__text--h1">Bệnh viện chợ rẫy</h1>
+                        <h2 class="banner__text--h2">
+                            Khám chữa bệnh, nghiên cứu khoa học, đào tạo, chỉ đạo tuyến
+                        </h2>
+                        <a class="banner__text--icon" href="#features"
+                            ><i class="ri-arrow-down-line"></i
+                        ></a>
+                    </div>
+                </div>
+            </section>
+            <section class="sec1">
+                <div class="container sec1__center">
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-xl-2">
+                            <a href="">
+                                <div class="sec1__bg">
+                                    <i class="ri-calendar-2-line sec1__bg--icon"></i>
+                                    <p class="sec1__bg--text">Lịch <span>khám bệnh</span></p>
+                                    <div class="overlay-skew"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2">
+                            <a href="" data-toggle="modal" data-target="#dangkykhambenh">
+                                <div class="sec1__bg">
+                                    <i class="ri-file-add-line sec1__bg--icon"></i>
+                                    <p class="sec1__bg--text">Đăng ký <span>khám bệnh</span></p>
+                                    <div class="overlay-skew"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2">
+                            <a href="" data-toggle="modal" data-target="#dangkydichvu">
+                                <div class="sec1__bg">
+                                    <i class="ri-pen-nib-line sec1__bg--icon"></i>
+                                    <p class="sec1__bg--text">Đăng ký <span>khám dịch vụ</span></p>
+                                    <div class="overlay-skew"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2">
+                            <a href="">
+                                <div class="sec1__bg">
+                                    <i class="ri-map-pin-user-line sec1__bg--icon"></i>
+                                    <p class="sec1__bg--text">Tìm <span>thân nhân</span></p>
+                                    <div class="overlay-skew"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2">
+                            <a href="">
+                                <div class="sec1__bg">
+                                    <i class="ri-bus-line sec1__bg--icon"></i>
+                                    <p class="sec1__bg--text">Dịch vụ <span>vận chuyển</span></p>
+                                    <div class="overlay-skew"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2">
+                            <a href="" data-toggle="modal" data-target="#ykien">
+                                <div class="sec1__bg">
+                                    <i class="ri-questionnaire-line sec1__bg--icon"></i>
+                                    <p class="sec1__bg--text">Góp ý <span>hỏi đáp</span></p>
+                                    <div class="overlay-skew"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="megamenu">
+                <ul class="items">
+                    <li class="item">
+                        <a href="" data-toggle="modal" data-target="#dangkykhambenh"
+                            ><i class="ri-file-add-line"></i>Đăng ký khám bệnh</a
+                        >
+                    </li>
+                    <li class="item">
+                        <a href="" data-toggle="modal" data-target="#dangkydichvu"
+                            ><i class="ri-pen-nib-line"></i>Đăng ký dịch vụ</a
+                        >
+                    </li>
+                    <li class="item">
+                        <a href=""><i class="ri-calendar-2-line"></i>Lịch khám bệnh</a>
+                    </li>
+                    <li class="item">
+                        <a href=""><i class="ri-stethoscope-line"></i>Tìm bác sĩ</a>
+                    </li>
+                    <li class="item">
+                        <a href=""><i class="ri-customer-service-2-line"></i>Hướng dẫn</a>
+                    </li>
+                    <li class="item">
+                        <a href="" data-toggle="modal" data-target="#dangkytuvan"
+                            ><i class="ri-quill-pen-line"></i>Đăng ký tư vấn</a
+                        >
+                    </li>
+                    <li class="item">
+                        <a href=""><i class="ri-bus-line"></i>Dịch vụ vận chuyển</a>
+                    </li>
+                    <li class="item">
+                        <a href=""><i class="ri-phone-fill"></i>Hotline cấp cứu</a>
+                    </li>
+                    <li class="item">
+                        <a href=""><i class="ri-organization-chart"></i>Sơ đồ bệnh viện</a>
+                    </li>
+                </ul>
+            </div>
+            <section class="features" id="features">
+                <div class="container">
+                    <div class="margin-title">
+                        <h1 class="section-title">Tin tức nổi bật</h1>
+                    </div>
+                </div>
+                <hr />
+                <div class="container">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img">
+                                        <img src="image/t1.jpg" alt="" />
+                                    </div>
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Cơ quan Hợp tác Quốc tế Nhật Bản (JICA) thăm và làm
+                                                việc tại BV Chợ Rẫy
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">HOẠT ĐỘNG BỆNH VIỆN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img">
+                                        <img src="image/t2.jpg" alt="" />
+                                    </div>
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Công bố Quyết định công nhận Ban chấp hành, Ban
+                                                Thường vụ, Bí thư, Phó Bí thư Đảng Ủy, Ủy ban kiểm
+                                                tra, Chủ nhiệm Ủy... ban kiểm tra Đảng ủy khóa XV,
+                                                nhiệm kỳ 2020 - 2025
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">HOẠT ĐỘNG BỆNH VIỆN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img">
+                                        <img src="image/t3.jpg" alt="" />
+                                    </div>
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Giúp bệnh nhân ung thư tự tin và lạc quan
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">Công tác xã hội</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img"><img src="image/t4.jpg" alt="" /></div>
+
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Hội nghị Trung tâm Tim mạch bệnh viện Chợ Rẫy lần 1
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">Đào tạo nghiên cứu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img"><img src="image/t2.jpg" alt="" /></div>
+
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Đoàn Bệnh viện Chợ Rẫy đạt giải III giải bóng đá
+                                                truyền thống cụm Đoàn Cơ sở
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate"> HOẠT ĐỘNG đoàn thể</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img"><img src="image/t1.jpg" alt="" /></div>
+
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Cơ quan Hợp tác Quốc tế Nhật Bản (JICA) thăm và làm
+                                                việc tại BV Chợ Rẫy
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">HOẠT ĐỘNG BỆNH VIỆN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img"><img src="image/t2.jpg" alt="" /></div>
+
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Công bố Quyết định công nhận Ban chấp hành, Ban
+                                                Thường vụ, Bí thư, Phó Bí thư Đảng Ủy, Ủy ban kiểm
+                                                tra, Chủ nhiệm Ủy... ban kiểm tra Đảng ủy khóa XV,
+                                                nhiệm kỳ 2020 - 2025
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">HOẠT ĐỘNG BỆNH VIỆN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img"><img src="image/t3.jpg" alt="" /></div>
+
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Giúp bệnh nhân ung thư tự tin và lạc quan
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">Công tác xã hội</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img"><img src="image/t4.jpg" alt="" /></div>
+
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Hội nghị Trung tâm Tim mạch bệnh viện Chợ Rẫy lần 1
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate">Đào tạo nghiên cứu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="features__post">
+                                    <div class="img"><img src="image/t2.jpg" alt="" /></div>
+
+                                    <div class="features__post--text">
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Đoàn Bệnh viện Chợ Rẫy đạt giải III giải bóng đá
+                                                truyền thống cụm Đoàn Cơ sở
+                                            </h4>
+                                        </a>
+                                        <a href="" class="p-section-cate"> HOẠT ĐỘNG đoàn thể</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+                    </div>
+                </div>
+            </section>
+            <section class="sec2">
+                <div class="container">
+                    <div class="sec2__text">
+                        <div class="margin-title">
+                            <h2 class="section-title">
+                                Tin thông báo
+
+                                <ul class="items">
+                                    <li><a href="" class="item active">Thông báo chung</a></li>
+                                    <li><a href="" class="item line">Thông báo đấu thầu</a></li>
+                                    <li><a href="" class="item line">Thông báo tin thuốc</a></li>
+                                </ul>
+                            </h2>
+                        </div>
+                        <!-- <ul class="items">
+              <li class="item"><a href="">Thông báo chung</a></li>
+              <li class="item"><a href="">Thông báo đấu thầu</a></li>
+              <li class="item"><a href="">Thông báo tin thuốc</a></li>
+            </ul> -->
+                    </div>
+                </div>
+            </section>
+            <section class="sec3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                            <a href="">
+                                <h4 class="p-section-title">
+                                    Quyết định 4462/QĐ-BVCR về việc lựa chọn giá dịch vụ vận chuyển
+                                    bệnh nhân theo yêu cầu bằng xe cứu thương
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                            <a href="">
+                                <h4 class="p-section-title">
+                                    Chuyển địa điểm Khoa chăm sóc sức khỏe theo yêu cầu BV Chợ Rẫy
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                            <a href="">
+                                <h4 class="p-section-title">
+                                    Thông báo điểm thi thăng hạng viên chức hành chính từ cán sự,
+                                    chuyên viên cao đẳng lên chuyên viên
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <p class="p-section-date">Thứ hai, 12/06/2020</p>
+                            <a href="">
+                                <h4 class="p-section-title">
+                                    Thông báo về việc cấp Chứng chỉ đào tạo liên tục và Giấy chứng
+                                    nhận đào tạo liên tục tại Bệnh viện Chợ Rẫy
+                                </h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec4">
+                <div class="container slide-container">
+                    <div class="sec4__slide">
+                        <div>
+                            <div class="sec4__box sec4__box--img1">
+                                <a href="">
+                                    <img
+                                        class="sec4__box--img"
+                                        src="image/SVG/blueprint.svg"
+                                        alt=""
+                                    />
+                                    <p class="sec4__box--text">Sơ đồ <span> BV chợ rẫy</span></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sec4__box sec4__box--img2">
+                                <a href="">
+                                    <img
+                                        class="sec4__box--img payment-s4"
+                                        src="image/SVG/payment.svg"
+                                        alt=""
+                                    />
+                                    <p class="sec4__box--text">
+                                        Thanh toán hoá đơn không dùng tiền mặt
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sec4__box sec4__box--img3">
+                                <a href="">
+                                    <img
+                                        class="sec4__box--img"
+                                        src="image/SVG/coronavirus.svg"
+                                        alt=""
+                                    />
+                                    <p class="sec4__box--text">Hướng dẫn phòng ngừa Covid-19</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sec4__box sec4__box--img4">
+                                <a href="">
+                                    <img
+                                        class="sec4__box--img"
+                                        src="image/SVG/hospital.svg"
+                                        alt=""
+                                    />
+                                    <p class="sec4__box--text">
+                                        Video giới thiệu bệnh viện Chợ Rẫy
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sec4__box sec4__box--img1">
+                                <a href="">
+                                    <img
+                                        class="sec4__box--img"
+                                        src="image/SVG/blueprint.svg"
+                                        alt=""
+                                    />
+                                    <p class="sec4__box--text">
+                                        Sơ đồ <br />
+                                        BV chợ rẫy
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-title-big">
+                <div class="container">
+                    <div class="margin-title">
+                        <h2 class="section-title">Hoạt động bệnh viện</h2>
+                        <div class="section__title--right">
+                            <a href="" class="btn btn-title"
+                                >Xem thêm <span class="button-title"></span
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-9 col-lg-6 border-right pl-15">
+                            <div class="sec5__postbig">
+                                <div class="img">
+                                    <img src="image/sec5_1.jpg" alt="" />
+                                </div>
+                                <p class="p-section-date">18/06/2020</p>
+                                <a href="" class="link">
+                                    <h4 class="p-section-title">
+                                        Bệnh viện Chợ Rẫy khen thưởng đột xuất các tập thể và cá
+                                        nhân đạt thành tích tốt trong công tác phòng, chống dịch
+                                        Covid-19
+                                    </h4>
+                                </a>
+                                <a href="" class="btn btn-post"
+                                    >Chi tiết<span class="material-icons"> trending_flat </span></a
+                                >
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 pr-15">
+                            <div class="row">
+                                <div class="col-6 col-md-12">
+                                    <div class="sec5__postsmall">
+                                        <div class="img">
+                                            <img src="image/sec5_2.jpg" alt="" />
+                                        </div>
+                                        <p class="p-section-date">18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Thư cảm ơn của Tổng Lãnh sự Anh về việc chăm sóc và
+                                                hỗ trợ các công dân Anh trong phòng chống dịch Covid
+                                                -19
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <div class="sec5__postsmall">
+                                        <img src="image/sec5_3.jpg" alt="" />
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Bệnh viện Chợ Rẫy tiếp nhận món quà từ Trung ương
+                                                Hội Chữ Thập Đỏ Việt Nam
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-3 border-left sec5__post--right">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="sec5__noimg">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                “Những người gác cửa” giành sự sống từ tay tử thần
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="sec5__noimg">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Bác sĩ BV Chợ Rẫy: "Nhớ mãi cái nắm tay của bệnh
+                                                nhân khỏi Covid-19"
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="sec5__noimg">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Cơ quan Hợp tác Quốc tế Nhật Bản (JICA) thăm và làm
+                                                việc tại BV Chợ Rẫy
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="sec5__noimg">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Chuyện chưa kể của nữ bác sĩ trẻ 3 tuần chăm sóc
+                                                bệnh nhân 91, phi công người Anh
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="sec5__noimg">
+                                        <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Bệnh viện Chợ Rẫy tổ chức Lễ khai trương triển khai
+                                                ứng dụng thẻ khám bệnh – thanh toán trực tuyến không
+                                                dùng tiền mặt và hóa đơn điện tử
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec6">
+                <div class="container">
+                    <div class="sec6__slide">
+                        <div>
+                            <div class="sec6__slide--banner">
+                                <img src="image/banner__sec5.jpg" alt="" />
+                                <div class="sec6__slide--text">
+                                    <h4 class="section-title">
+                                        Thông báo chiêu sinh các lớp Vật lý trị liệu- Phục hồi chức
+                                        năng, khai giảng 15/07/2020
+                                    </h4>
+                                    <p class="p-section-des">
+                                        Bệnh viện Chợ Rẫy liên tục thực hiện kế hoạch công tác chỉ
+                                        đạo tuyến về đào tạo lại, cập nhật kiến thức mới và nâng cao
+                                        chất lượng chuyên môn cho bệnh viện tuyến dưới.
+                                    </p>
+                                    <a href="" class="btn btn-post"
+                                        >Chi tiết<span class="material-icons">
+                                            trending_flat
+                                        </span></a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sec6__slide--banner">
+                                <img src="image/banner__sec5.jpg" alt="" />
+                                <div class="sec6__slide--text">
+                                    <h4 class="section-title">
+                                        Thông báo chiêu sinh các lớp Vật lý trị liệu- Phục hồi chức
+                                        năng, khai giảng 15/07/2020
+                                    </h4>
+                                    <p class="p-section-des">
+                                        Bệnh viện Chợ Rẫy liên tục thực hiện kế hoạch công tác chỉ
+                                        đạo tuyến về đào tạo lại, cập nhật kiến thức mới và nâng cao
+                                        chất lượng chuyên môn cho bệnh viện tuyến dưới.
+                                    </p>
+                                    <a href="" class="btn btn-post"
+                                        >Chi tiết<span class="material-icons">
+                                            trending_flat
+                                        </span></a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-title-big">
+                <div class="container">
+                    <div class="margin-title">
+                        <h2 class="section-title">Công tác xã hội</h2>
+                        <div class="section__title--right">
+                            <a href="" class="btn btn-title"
+                                >Xem thêm <span class="button-title"></span
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec6 s6-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xl-3 border-right">
+                            <div class="row">
+                                <div class="col-6 col-xl-12">
+                                    <div class="sec5__postsmall">
+                                        <div class="img">
+                                            <img src="image/sec6_1.jpg" alt="" />
+                                        </div>
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Chủ nhật ấm tình người ở Bệnh viện Chợ Rẫy
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-12">
+                                    <div class="sec5__postsmall">
+                                        <div class="img">
+                                            <img src="image/sec6_2.jpg" alt="" />
+                                        </div>
+
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Cảm động Trung thu đặc biệt tại Bệnh viện Chợ Rẫy
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="sec5__postbig">
+                                        <div class="img">
+                                            <img src="image/sec6_5.jpg" alt="" />
+                                        </div>
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="" class="link">
+                                            <h4 class="p-section-title">
+                                                Giúp bệnh nhân ung thư tự tin và lạc quan
+                                            </h4>
+                                        </a>
+                                        <a href="" class="btn btn-post"
+                                            >Chi tiết<span class="material-icons">
+                                                trending_flat
+                                            </span></a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-3 border-left">
+                            <div class="row">
+                                <div class="col-6 col-xl-12">
+                                    <div class="sec5__postsmall">
+                                        <div class="img">
+                                            <img src="image/sec6_3.jpg" alt="" />
+                                        </div>
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Bếp yêu thương không sử dụng đồ nhựa dùng một lần
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-12">
+                                    <div class="sec5__postsmall">
+                                        <div class="img">
+                                            <img src="image/sec6_4.jpg" alt="" />
+                                        </div>
+                                        <p class="p-section-date">Thứ năm, 18/06/2020</p>
+                                        <a href="">
+                                            <h4 class="p-section-title">
+                                                Những bữa cơm "không đồng" ấm lòng bệnh nhân nghèo
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 mx-auto">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="sec7__text text-center">
+                                        <h4 class="section-title">Giới thiệu</h4>
+                                        <h5>
+                                            Bệnh viện Chợ Rẫy là bệnh viện hạng Đặc biệt trực thuộc
+                                            Bộ Y tế, đảm nhiệm chức năng khám chữa bệnh, đào tạo và
+                                            nghiên cứu khoa học.
+                                        </h5>
+                                        <p>
+                                            Bên cạnh đó, Chợ Rẫy là bệnh viện tuyến cuối cho cả khu
+                                            vực phía Nam. Hiểu được vinh dự, trọng trách của mình,
+                                            tập thể Đảng ủy, Ban Giám đốc cùng toàn thể nhân viên
+                                            bệnh viện Chợ Rẫy đã không ngừng phấn đấu rèn luyện
+                                            chuyên môn, nâng cao chất lượng phục vụ nhằm đem đến cho
+                                            cộng đồng một dịch vụ chăm sóc sức khỏe chất lượng cao,
+                                            ngang tầm với các nước trong khu vực.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divine"></div>
+                    <div class="row">
+                        <div class="col-10 mx-auto">
+                            <div class="row">
+                                <div class="col-sx-12 col-sm-6 col-lg-3 sec7__boxSo text-center">
+                                    <h4 class="sec7__number">120</h4>
+                                    <p class="sec7__tx">Năm hình thành và phát triển</p>
+                                </div>
+                                <div class="col-sx-12 col-sm-6 col-lg-3 sec7__boxSo text-center">
+                                    <h4 class="sec7__number">4.200</h4>
+                                    <p class="sec7__tx">Bác sĩ và nhân viên y tế</p>
+                                </div>
+                                <div class="col-sx-12 col-sm-6 col-lg-3 sec7__boxSo text-center">
+                                    <h4 class="sec7__number">8.850</h4>
+                                    <p class="sec7__tx">
+                                        Số bệnh nhân nội, ngoại trú, cấp cứu hàng ngày
+                                    </p>
+                                </div>
+                                <div class="col-sx-12 col-sm-6 col-lg-3 sec7__boxSo text-center">
+                                    <h4 class="sec7__number">45.000</h4>
+                                    <p class="sec7__tx">
+                                        Ca phẫu thuật hàng năm (62% phẫu thuật loại 1 và đặc biệt)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="section-title-small text-center">Các trung tâm</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 sec7tt__boxbig">
+                            <a href="">
+                                <div class="sec7tt__boxleft">
+                                    <div class="overlay"></div>
+                                    <div class="img">
+                                        <img src="image/sec8_1.jpg" alt="" />
+                                    </div>
+                                    <h4 class="sec7tt__boxleft--text">
+                                        Trung tâm khu vực về thông tin thuốc và theo dõi phản ứng có
+                                        hại của thuốc tại TP.HCM
+                                        <div class="line"></div>
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-8">
+                            <div class="row">
+                                <div class="col-6 sec7tt__boxsmall">
+                                    <a href="">
+                                        <div class="sec7tt__boxleft">
+                                            <div class="overlay"></div>
+                                            <img src="image/sec8-2.jpg" alt="" />
+                                            <h4 class="sec7tt__boxleft--text">
+                                                Trung tâm truyền máu khu vực phía Nam
+                                                <div class="line"></div>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="sec7tt__boxleft">
+                                            <div class="overlay"></div>
+                                            <img src="image/sec8-3.jpg" alt="" />
+                                            <h4 class="sec7tt__boxleft--text">
+                                                Trung tâm Ung bứu Chợ Rẫy
+                                                <div class="line"></div>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 sec7tt__boxsmall">
+                                    <a href="">
+                                        <div class="sec7tt__boxleft">
+                                            <div class="overlay"></div>
+                                            <img src="image/sec8-4.jpg" alt="" />
+                                            <h4 class="sec7tt__boxleft--text">
+                                                Trung tâm Tim mạch Chợ Rẫy
+                                                <div class="line"></div>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="sec7tt__boxleft">
+                                            <div class="overlay"></div>
+                                            <img src="image/sec8-5.jpg" alt="" />
+                                            <h4 class="sec7tt__boxleft--text">
+                                                Trung tâm Đào tạo – Chỉ đạo tuyến
+                                                <div class="line"></div>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-big-sec9">
+                <section class="section-title-big">
+                    <div class="container">
+                        <div class="margin-title">
+                            <h2 class="section-title">Đào tạo - Nghiên cứu</h2>
+                            <div class="section__title--right">
+                                <a href="" class="btn btn-title"
+                                    >Xem thêm <span class="button-title"></span
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="post-slide">
+                    <div class="container slide-container">
+                        <div class="post-slide-main">
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_03.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Hội nghị Trung tâm Tim mạch bệnh viện Chợ Rẫy lần 1
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_05.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Hội nghị Khoa học thường niên Bệnh viện Chợ Rẫy năm 2019
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_07.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Ba công trình khoa học ứng dụng nhận giải thưởng Kova
+                                            2018
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_09.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Khóa đào tạo liên tục về An toàn người bệnh lần thứ 2
+                                            năm 2018
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_09.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Bác sĩ BV Chợ Rẫy: "Nhớ mãi cái nắm tay của bệnh nhân
+                                            khỏi Covid-19"
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_09.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Bác sĩ BV Chợ Rẫy: "Nhớ mãi cái nắm tay của bệnh nhân
+                                            khỏi Covid-19"
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-title-big">
+                    <div class="container">
+                        <div class="margin-title">
+                            <h2 class="section-title">Hoạt động đoàn thể</h2>
+                            <div class="section__title--right">
+                                <a href="" class="btn btn-title"
+                                    >Xem thêm <span class="button-title"></span
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="post-slide">
+                    <div class="container slide-container">
+                        <div class="post-slide-main">
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_15.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Đoàn Bệnh viện Chợ Rẫy đạt giải III giải bóng đá truyền
+                                            thống cụm Đoàn Cơ sở
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_17.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Đoàn Cơ sở Bệnh viện Chợ Rẫy được nhận bằng khen có
+                                            thành tích xuất sắc
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_19.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Chúc mừng 2 bác sĩ trẻ của Bệnh viện Chợ Rẫy được biểu
+                                            dương là điển hình Thanh niên tiên tiến
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_20.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Mang đến niềm tin, sự hài lòng cho người bệnh
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_15.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Bác sĩ BV Chợ Rẫy: "Nhớ mãi cái nắm tay của bệnh nhân
+                                            khỏi Covid-19"
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Post-slide -->
+                            <div>
+                                <div class="sec5__postsmall">
+                                    <div class="img">
+                                        <img src="image/tintuc/tintuc_15.jpg" alt="" />
+                                    </div>
+                                    <p class="p-section-date">Thứ tư, 17/06/2020</p>
+                                    <a href="">
+                                        <h4 class="p-section-title">
+                                            Bác sĩ BV Chợ Rẫy: "Nhớ mãi cái nắm tay của bệnh nhân
+                                            khỏi Covid-19"
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="reflink">
+                <div class="container">
+                    <h5 class="reflink-title">Website liên kết</h5>
+                    <div class="reflink-img slide-lk">
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/1.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/2.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/3.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/4.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/4.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/5.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/6.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/7.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/3.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="img">
+                                <a href="">
+                                    <img src="image/reflink/3.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="button-top" id="back-to-top">
+                <a href="#" id="back-to-top">
+                    <span class="lnr lnr-arrow-up"></span>
+                </a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <h1 class="footer__title">bệnh viện chợ rẫy</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 footer__box">
+                        <h6 class="footer__box--title">Thông tin liên hệ</h6>
+                        <p class="footer__box--text footer__box--mb">
+                            <i class="ri-map-pin-5-line"></i>
+                            <span>
+                                Địa chỉ: 201B Nguyễn Chí Thanh, Phường 12, Quận 5, Thành phố Hồ Chí
+                                Minh
+                            </span>
+                        </p>
+                        <p class="footer__box--text">
+                            <i class="ri-phone-line"></i>
+                            <span>Điện thoại: <b>(84-028) 38554137 - (84-028) 38554138</b></span>
+                        </p>
+                        <p class="footer__box--text">
+                            <i class="ri-printer-line"></i>
+                            <span>Fax: <b>(84-028) 38557267</b></span>
+                        </p>
+                        <p class="footer__box--text">
+                            <i class="ri-mail-line"></i>
+                            <span>Email:<b>truyenthong@bvchoray.com</b></span>
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 footer__box">
+                        <h6 class="footer__box--title">Giới thiệu</h6>
+                        <ul class="items">
+                            <li class="item"><a href="">Tổng quan</a></li>
+                            <li class="item"><a href="">Lịch sử hình thành</a></li>
+                            <li class="item"><a href="">Định hướng phát triển</a></li>
+                            <li class="item"><a href="">Cơ cấu tổ chức</a></li>
+                            <li class="item"><a href="">Hệ thống văn bản</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 footer__box">
+                        <h6 class="footer__box--title">Các trung tâm</h6>
+                        <ul class="items">
+                            <li class="item">
+                                <a href=""
+                                    >Trung tâm khu vực về thông tin thuốc và theo dõi phản ứng có
+                                    hại của thuốc</a
+                                >
+                            </li>
+                            <li class="item">
+                                <a href="">Trung tâm truyền máu khu vực phía Nam</a>
+                            </li>
+                            <li class="item"><a href="">Trung tâm Tim mạch Chợ Rẫy</a></li>
+                            <li class="item"><a href="">Trung tâm Ung bứu Chợ Rẫy</a></li>
+                            <li class="item"><a href="">Trung tâm Đào tạo – Chỉ đạo tuyến</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 footer__box">
+                        <h6 class="footer__box--title">Hỗ trợ khách hàng</h6>
+                        <ul class="items">
+                            <li class="item"><a href="">Bảng giá dịch vụ</a></li>
+                            <li class="item"><a href="">Đặt lịch hẹn bác sĩ</a></li>
+                            <li class="item"><a href="">Đặt mua gói khám sức khỏe</a></li>
+                            <li class="item"><a href="">Những câu hỏi thường gặp</a></li>
+                            <li class="item"><a href="">Chính sách bảo mật</a></li>
+                            <li class="item"><a href="">Tiếp nhận ý kiến khách hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 pd-subfooter footer__box fl-center">
+                        <p class="footer__box--textsmall">© 2020 Chợ Rẫy</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 pd-subfooter footer__box fl-center">
+                        <a href="" class="footer__box--textsmall">Thiết kế website bởi Cánh Cam</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 pd-subfooter footer__box fl-center">
+                        <a href="" class="footer__box--textsmall">Sitemap</a>
+                        <span class="line">|</span>
+                        <a href="" class="footer__box--textsmall">Quy định sử dụng</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 pd-subfooter footer__box fl-center">
+                        <a href="" class="icon-footer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="" class="icon-footer">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="" class="icon-footer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="icon-footer">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Swiper JS -->
+        <script src="https://swiperjs.com/package/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <!-- SLICK -->
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script></script>
+        <script>
+            var swiper = new Swiper(".features .swiper-container", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                // centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "progressbar",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                    },
+                    576: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                },
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".sec4__slide").slick({
+                    dots: false,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                    responsive: [
+                        {
+                            breakpoint: 1199.98,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                infinite: true,
+                                dots: true,
+                                arrows: false,
+                            },
+                        },
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                            },
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                arrows: false,
+                                infinite: true,
+                                dots: true,
+                            },
+                        },
+                        // You can unslick at a given breakpoint now by adding:
+                        // settings: "unslick"
+                        // instead of a settings object
+                    ],
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".sec6__slide").slick({
+                    infinite: true,
+                    speed: 300,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                infinite: true,
+                            },
+                        },
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                infinite: true,
+                                dots: true,
+                                arrows: false,
+                            },
+                        },
+                        // You can unslick at a given breakpoint now by adding:
+                        // settings: "unslick"
+                        // instead of a settings object
+                    ],
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".post-slide-main").slick({
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    speed: 300,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                infinite: true,
+                            },
+                        },
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                dots: true,
+                                arrows: false,
+                                infinite: true,
+                            },
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                dots: true,
+                                arrows: false,
+                                infinite: true,
+                            },
+                        },
+                        // You can unslick at a given breakpoint now by adding:
+                        // settings: "unslick"
+                        // instead of a settings object
+                    ],
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    var sticky = $(".header"),
+                        scroll = $(window).scrollTop();
+
+                    if (scroll >= 100) sticky.addClass("fixed");
+                    else sticky.removeClass("fixed");
+                });
+                $(".input-daterange").datepicker({
+                    todayBtn: true,
+                    autoclose: true,
+                });
+                $(".input-daterange input").each(function () {
+                    $(this).datepicker("clearDates");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                // $(window).scroll(function () {
+                //   if ($(this).scrollTop() > 50) {
+                //     $("#back-to-top").fadeIn();
+                //   } else {
+                //     $("#back-to-top").fadeOut();
+                //   }
+                // });
+                // scroll body to 0px on click
+
+                var btn = $("#back-to-top");
+
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() > 300) {
+                        btn.addClass("show");
+                    } else {
+                        btn.removeClass("show");
+                    }
+                });
+
+                $("#back-to-top").click(function () {
+                    $("body,html").animate(
+                        {
+                            scrollTop: 0,
+                        },
+                        400
+                    );
+                    return false;
+                });
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('a[href="#search"]').click(function () {
+                    $(".search-box").toggle("slow");
+                    $("input[type='text']").focus();
+                });
+                $("#search-icon").click(function () {
+                    $(".nav").toggleClass("search");
+                    $(".nav").toggleClass("no-search");
+                    $(".search-input").toggleClass("search-active");
+                });
+            });
+        </script>
+        <script>
+            $(function () {
+                $('a[href="#menu"]').on("click", function (event) {
+                    event.preventDefault();
+                    $(".menu__mobile").addClass("open");
+                });
+
+                $('.menu__mobile, .menu__mobile a[href="#close"]').on("click keyup", function (
+                    event
+                ) {
+                    $(this).removeClass("open");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".slide-lk").slick({
+                    dots: false,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 8,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    responsive: [
+                        {
+                            breakpoint: 1199.98,
+                            settings: {
+                                slidesToShow: 6,
+                                slidesToScroll: 1,
+                                infinite: true,
+                                dots: true,
+                                arrows: false,
+                            },
+                        },
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 5,
+                                slidesToScroll: 2,
+                            },
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                            },
+                        },
+                        // You can unslick at a given breakpoint now by adding:
+                        // settings: "unslick"
+                        // instead of a settings object
+                    ],
+                });
+            });
+        </script>
+    </body>
+</html>
